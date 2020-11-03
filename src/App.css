@@ -1,1 +1,61 @@
 /* Other rules */
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+/* ----------- header ----------- */
+
+.header {
+  margin: 0 0 40px 50px;
+}
+
+.header img {
+  height: 100px;
+  width: 100px;
+}
+
+/* ----------- main ----------- */
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+}
+.sections-container {
+  margin: 0 0 40px 50px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.movies-content {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.movies-content img {
+  width: 220px;
+}
+
+/* ----------- Footer ----------- */
+.footer {
+  height: 80px;
+  text-align: center;
+}
+
+.footer p {
+  color: #00d9ff;
+}
+
+.footer a {
+  color: #00d9ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer img {
+  height: 20px;
+}
